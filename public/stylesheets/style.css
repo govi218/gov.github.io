@@ -11,12 +11,12 @@ h1{
   text-align: center;
 }
 
-p #contact{
+p.contact{
   font-family: "Palatino";
   text-align: right;
 }
 
-p #landing {
+p.landing {
   font-family: "Palatino";
   text-align: center;
 }
