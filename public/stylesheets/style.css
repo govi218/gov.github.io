@@ -4,13 +4,22 @@ body {
   background-color: #F0F2FF;
 }
 
-a {
-  color: #00B7FF;
-}
-
 h1{
   text-align: center;
   font-size: 50px;
+}
+
+a.h1{
+  color: #000000;
+  text-decoration: none; 
+} 
+
+a.h1:hover{
+  color: #323232;
+}
+
+a {
+  color: #00B7FF;
 }
 
 p{
@@ -28,4 +37,10 @@ p.landing {
 
 p.first {
   font-style: oblique;
+  text-align: center;
+}
+
+p.links {
+  text-align: center;
+  font-style: italic;
 }
