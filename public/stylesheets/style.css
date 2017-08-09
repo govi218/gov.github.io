@@ -8,13 +8,15 @@ a {
 }
 
 h1{
-  text-align: center
+  text-align: center;
 }
 
-p {
-  font-family: "Palatino"
+p #contact{
+  font-family: "Palatino";
+  text-align: right;
 }
 
 p #landing {
-  text-align: right
+  font-family: "Palatino";
+  text-align: center;
 }
