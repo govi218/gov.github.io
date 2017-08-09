@@ -1,8 +1,20 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Palatino", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+h1{
+  text-align: center
+}
+
+p {
+  font-family: "Palatino"
+}
+
+p #landing {
+  text-align: right
 }
