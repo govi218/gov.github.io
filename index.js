@@ -15,6 +15,6 @@ app.use('*',function(req, res){
   res.sendFile(path + 'index.html');
 });
   
-app.listen(3000,function(){
-  console.log('Server running at Port 3000');
+app.listen(process.env.PORT || 5000, function(){
+  console.log('Server running at Port' + process.env.PORT);
 });
