@@ -1,10 +1,20 @@
 var express = require('express');
 var app = express();
+var router = express.Router();
+  
+var path = __dirname + '/views/';
 
-app.get('/', function (req, res) {
-    res.send('<h1>Open Source For You!</h1>');
+app.use(express.static(path));
+app.use('/',router);
+  
+router.get('/',function(req, res){
+  res.sendFile(path + 'index.html');
 });
-
-app.listen(3000, function () {
-    console.log('listening on port 3000!');
+  
+app.use('*',function(req, res){
+  res.sendFile(path + 'index.html');
+});
+  
+app.listen(3000,function(){
+  console.log('Server running at Port 3000');
 });
