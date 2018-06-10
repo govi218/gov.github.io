@@ -16,5 +16,5 @@ app.use('*',function(req, res){
 });
   
 app.listen(process.env.PORT || 5000, function(){
-  console.log('Server running at Port' + process.env.PORT);
+  console.log('Server running at port: ' + (5000 || process.env.PORT));
 });
