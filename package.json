@@ -18,6 +18,13 @@
   },
   "homepage": "https://github.com/govi218/gov.github.io#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.3",
+    "extend": "^3.0.2",
+    "minimist": "^1.2.0",
+    "querystring": "~0.2.0",
+    "request": "^2.88.0",
+    "spotify-web-api-node": "^2.5.0",
+    "superagent": "^3.7.0"
   }
 }
