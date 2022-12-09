@@ -19,7 +19,7 @@
   "homepage": "https://github.com/govi218/gov.github.io#readme",
   "dependencies": {
     "cookie-parser": "^1.4.4",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "extend": "^3.0.2",
     "minimist": "^1.2.0",
     "querystring": "~0.2.0",
